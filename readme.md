@@ -111,10 +111,10 @@ Developed with ❤️ by **Sanad Suleman**
 Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/sanad-suleman-922005301) or visit my [GitHub](https://github.com/sanadsul) for more projects.
 
 
-### 🚀 Getting Started
+# 🚀 Getting Started
 
 
-## 🔧 Prerequisites
+### 🔧 Prerequisites
 
 To run this project locally, you'll need the following:
 - **Node.js** (v14+)
