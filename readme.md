@@ -58,47 +58,59 @@ The following is an overview of the main files and folders:
 
 ## 🚀 Getting Started
 
-📚 API Endpoints
+## 📚 API Endpoints
+
 Here is a summary of the available routes:
 
-🔐 Authentication
-POST /auth/register - Register a new user
-POST /auth/login - Login and receive a JWT token
-🛒 Products
-GET /products - Fetch all products
-POST /products - Add a new product (Requires authentication)
-PUT /products/:id - Update a product (Requires authentication)
-DELETE /products/:id - Delete a product (Requires authentication)
-🛍️ Cart
-POST /cart - Add a product to the cart (Requires authentication)
-GET /cart - Get the current user's cart (Requires authentication)
-DELETE /cart/:id - Remove a product from the cart (Requires authentication)
-📦 Orders
-POST /orders - Create a new order (Requires authentication)
-GET /orders - Get all orders (Requires authentication)
-📜 Scripts
+### 🔐 Authentication
+- `POST /auth/register` - Register a new user
+- `POST /auth/login` - Login and receive a JWT token
+
+### 🛒 Products
+- `GET /products` - Fetch all products
+- `POST /products` - Add a new product (Requires authentication)
+- `PUT /products/:id` - Update a product (Requires authentication)
+- `DELETE /products/:id` - Delete a product (Requires authentication)
+
+### 🛍️ Cart
+- `POST /cart` - Add a product to the cart (Requires authentication)
+- `GET /cart` - Get the current user's cart (Requires authentication)
+- `DELETE /cart/:id` - Remove a product from the cart (Requires authentication)
+
+### 📦 Orders
+- `POST /orders` - Create a new order (Requires authentication)
+- `GET /orders` - Get all orders (Requires authentication)
+  
+### 📜 Scripts
+
 Below are some useful npm scripts for this project:
 
-npm start: Starts the server in production mode.
-npm run dev: Starts the server in development mode (with nodemon for hot reloads).
-npm test: Run test cases (if any are implemented).
-📚 Dependencies
+- `npm start` - Starts the server in production mode.
+- `npm run dev` - Starts the server in development mode (with nodemon for hot reloads).
+- `npm test` - Run test cases (if any are implemented).
+
+### 📚 Dependencies
+
 Here are the main dependencies used in the project:
 
-Express.js: A fast, unopinionated, minimalist web framework for Node.js.
-Mongoose: An ODM (Object Data Modeling) library for MongoDB.
-JWT: JSON Web Token for secure authentication and authorization.
-Joi: A powerful schema description language and data validator for JavaScript.
-🛡️ Security Features
-Password Hashing: User passwords are hashed using bcrypt before storing in the database.
-JWT Authentication: Secure user sessions using JSON Web Tokens (JWT) for stateless authentication.
-Input Validation: All user input is validated using Joi to prevent malformed requests and ensure data integrity.
-⚖️ License
-This project is licensed under the MIT License. See the LICENSE file for details.
+- `Express.js` - A fast, unopinionated, minimalist web framework for Node.js.
+- `Mongoose` - An ODM (Object Data Modeling) library for MongoDB.
+- `JWT` - JSON Web Token for secure authentication and authorization.
+- `Joi` - A powerful schema description language and data validator for JavaScript.
+
+### 🛡️ Security Features
+- `Password Hashing` - User passwords are hashed using bcrypt before storing in the database.
+- `JWT Authentication` - Secure user sessions using JSON Web Tokens (JWT) for stateless authentication.
+- `Input Validation` - All user input is validated using Joi to prevent malformed requests and ensure data integrity.
+
+### ⚖️ License
+
+his project is licensed under the MIT License. See the LICENSE file for details.
 
 👨‍💻 Author
-Developed with ❤️ by Sanad Suleman
-Feel free to connect with me on LinkedIn or visit my GitHub for more projects.
+
+Developed with ❤️ by **Sanad Suleman**  
+Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/sanad-suleman-922005301) or visit my [GitHub](https://github.com/sanadsul) for more projects.
 
 
 
