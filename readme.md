@@ -63,6 +63,7 @@ Here is a summary of the available routes:
 ### 🔐 Authentication
 - `POST /auth/register` - Register a new user
 - `POST /auth/login` - Login and receive a JWT token
+- `GET /auth/Dashboard` - Fetch user dashboard data (requires authentication).
 
 ### 🛒 Products
 - `GET /products` - Fetch all products
